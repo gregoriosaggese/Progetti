@@ -1,0 +1,23 @@
+[info] Playing test case Untitled Test Suite / Untitled Test Case
+[info] Time: Tue Jan 30 2018 14:46:58 GMT+0100 (CET) Timestamp: 1517320018212
+[info] OS: macOS Version: 10.13
+[info] Browser: Firefox Version: 58.0
+[info] Executing: | open | http://localhost:8080/EPE/index.jsp |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | doubleClick | name=usernameLogin |  |
+[info] Executing: | type | name=usernameLogin | chiara_signore_tutorAziendale |
+[info] Executing: | type | name=passwordLogin | chiarasignore |
+[info] Executing: | click | id=inputAccedi |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | css=li.progettoFormativo |  |
+[info] Executing: | click | //a[contains(text(),'Daniele  Lupo')] |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | link=Indietro |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | link=Chiara Signore |  |
+[info] Executing: | click | id=buttonLogout |  |
+[info] Executing: | click | link=Logout |  |
+[info] Time: Tue Jan 30 2018 14:47:07 GMT+0100 (CET) Timestamp: 1517320027592
+[info] Test case passed

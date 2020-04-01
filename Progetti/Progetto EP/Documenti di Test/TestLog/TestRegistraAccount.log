@@ -1,0 +1,23 @@
+[info] Playing test case Untitled Test Suite / Untitled Test Case
+[info] Time: Tue Jan 30 2018 13:04:01 GMT+0100 (CET) Timestamp: 1517313841825
+[info] OS: macOS Version: 10.13
+[info] Browser: Firefox Version: 58.0
+[info] Executing: | open | http://localhost:8080/EPE/index.jsp |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | id=buttonRegistrati |  |
+[info] Executing: | click | name=emailRegistrazione |  |
+[info] Executing: | type | name=emailRegistrazione | d. |
+[info] Executing: | sendKeys | name=emailRegistrazione | ${KEY_DOWN} |
+[info] Executing: | sendKeys | name=emailRegistrazione | ${KEY_ENTER} |
+[info] Executing: | sendKeys | name=emailRegistrazione | ${KEY_TAB} |
+[info] Executing: | type | name=numTelefono | 333 |
+[info] Executing: | sendKeys | name=numTelefono | ${KEY_DOWN} |
+[info] Executing: | sendKeys | name=numTelefono | ${KEY_ENTER} |
+[info] Executing: | sendKeys | name=numTelefono | ${KEY_TAB} |
+[info] Executing: | type | name=nome | Daniele |
+[info] Executing: | type | name=cognome | Lupo |
+[info] Executing: | type | name=username | d.lupo |
+[info] Executing: | type | name=passwordRegistrazione | Chiara2212 |
+[info] Executing: | click | id=inputRegistrati |  |
+[info] Time: Tue Jan 30 2018 13:04:10 GMT+0100 (CET) Timestamp: 1517313850911
+[info] Test case passed

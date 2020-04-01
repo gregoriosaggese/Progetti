@@ -1,0 +1,21 @@
+[info] Playing test case Untitled Test Suite / Untitled Test Case
+[info] Time: Tue Jan 30 2018 13:44:47 GMT+0100 (CET) Timestamp: 1517316287252
+[info] OS: macOS Version: 10.13
+[info] Browser: Firefox Version: 58.0
+[info] Executing: | open | http://localhost:8080/EPE/ |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | type | name=usernameLogin |  |
+[info] Executing: | type | name=usernameLogin | carmine_gravino_responsabileAziendale |
+[info] Executing: | click | id=containerLogo |  |
+[info] Executing: | click | name=passwordLogin |  |
+[info] Executing: | type | name=passwordLogin | carminegravino |
+[info] Executing: | click | id=inputAccedi |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | css=li.richiestaStudente |  |
+[info] Executing: | click | xpath=(//input[@name='action'])[3] |  |
+[info] Executing: | click | css=body |  |
+[info] Executing: | click | link=Carmine Gravino |  |
+[info] Executing: | click | link=Logout |  |
+[info] Time: Tue Jan 30 2018 13:44:56 GMT+0100 (CET) Timestamp: 1517316296187
+[info] Test case passed

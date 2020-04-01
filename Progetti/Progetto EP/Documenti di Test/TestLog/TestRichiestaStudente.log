@@ -1,0 +1,45 @@
+[info] Playing test case Untitled Test Suite / Untitled Test Case
+[info] Time: Tue Jan 30 2018 13:29:40 GMT+0100 (CET) Timestamp: 1517315380088
+[info] OS: macOS Version: 10.13
+[info] Browser: Firefox Version: 58.0
+[info] Executing: | open | http://localhost:8080/EPE/ |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | doubleClick | name=usernameLogin |  |
+[info] Executing: | type | name=usernameLogin | d.lupo |
+[info] Executing: | type | name=passwordLogin | Chiara2212 |
+[info] Executing: | click | id=inputAccedi |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | css=li.richiestaStudente |  |
+[info] Executing: | click | css=a > li |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | name=residenza |  |
+[info] Executing: | type | name=residenza | Avellino |
+[info] Executing: | type | name=via | Via Garibaldi |
+[info] Executing: | type | name=nato | 20/01/1993 |
+[info] Executing: | click | name=nato |  |
+[info] Executing: | type | name=nato | Avellino |
+[info] Executing: | type | name=il | 20/01/1993 |
+[info] Executing: | type | name=codicefiscale | QQQQQQQQQQQQQQQ |
+[info] Executing: | click | name=optradio0 |  |
+[info] Executing: | click | name=matricola |  |
+[info] Executing: | type | name=matricola | 0512106789 |
+[info] Executing: | click | name=numeroCFU |  |
+[info] Executing: | type | name=numeroCFU | 6 |
+[info] Executing: | click | css=form[name="progettoformativo"] > div.radio > label |  |
+[info] Executing: | click | //div[8]/label |  |
+[info] Executing: | click | id=checkTirocinante |  |
+[info] Executing: | click | css=form[name="progettoformativo"] > input.form-control |  |
+[info] Executing: | assertAlert | Codice Fiscale non valido |  |
+[info] Executing: | click | name=codicefiscale |  |
+[info] Executing: | type | name=codicefiscale | QQQQQQQQQQQQQQQQ |
+[info] Executing: | click | css=form[name="progettoformativo"] > input.form-control |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | css=div.alert.alert-danger |  |
+[info] Executing: | click | css=div.alert.alert-danger |  |
+[info] Executing: | click | link=Indietro |  |
+[info] Executing: | click | link=Daniele Lupo |  |
+[info] Executing: | click | link=Logout |  |
+[info] Time: Tue Jan 30 2018 13:30:03 GMT+0100 (CET) Timestamp: 1517315403609
+[info] Test case passed

@@ -1,0 +1,23 @@
+[info] Playing test case Untitled Test Suite / Untitled Test Case
+[info] Time: Tue Jan 30 2018 13:17:22 GMT+0100 (CET) Timestamp: 1517314642111
+[info] OS: macOS Version: 10.13
+[info] Browser: Firefox Version: 58.0
+[info] Executing: | open | http://localhost:8080/EPE/ |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | doubleClick | name=usernameLogin |  |
+[info] Executing: | type | name=usernameLogin | ufficioStageETirocini |
+[info] Executing: | type | name=passwordLogin | defaultdefault |
+[info] Executing: | sendKeys | name=passwordLogin | ${KEY_ENTER} |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | css=li.compilaModuli |  |
+[info] Executing: | click | xpath=(//input[@name='nome'])[2] |  |
+[info] Executing: | click | xpath=(//input[@name='emailRegistrazione'])[2] |  |
+[info] Executing: | type | xpath=(//input[@name='emailRegistrazione'])[2] | cc.signore@studenti.it |
+[info] Executing: | click | xpath=(//input[@value='Modifica'])[2] |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | link=ufficioStageETirocini |  |
+[info] Executing: | click | link=Logout |  |
+[info] Time: Tue Jan 30 2018 13:17:31 GMT+0100 (CET) Timestamp: 1517314651012
+[info] Test case passed

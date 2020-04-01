@@ -1,0 +1,17 @@
+[info] Playing test case Untitled Test Suite / Untitled Test Case
+[info] Time: Tue Jan 30 2018 12:56:53 GMT+0100 (CET) Timestamp: 1517313413960
+[info] OS: macOS Version: 10.13
+[info] Browser: Firefox Version: 58.0
+[info] Executing: | open | http://localhost:8080/EPE/index.jsp |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | click | id=loginForm |  |
+[info] Executing: | click | id=inputAccedi |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | link=Gregorio Saggese |  |
+[info] Executing: | click | css=body |  |
+[info] Executing: | click | id=buttonLogout |  |
+[info] Executing: | click | link=Logout |  |
+[info] Time: Tue Jan 30 2018 12:56:59 GMT+0100 (CET) Timestamp: 1517313419597
+[info] Test case passed

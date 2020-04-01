@@ -1,0 +1,19 @@
+[info] Playing test case Untitled Test Suite / Untitled Test Case
+[info] Time: Tue Jan 30 2018 14:59:59 GMT+0100 (CET) Timestamp: 1517320799322
+[info] OS: macOS Version: 10.13
+[info] Browser: Firefox Version: 58.0
+[info] Executing: | open | http://localhost:8080/EPE/index.jsp |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | doubleClick | name=usernameLogin |  |
+[info] Executing: | click | name=usernameLogin |  |
+[info] Executing: | type | name=usernameLogin | c.signore |
+[info] Executing: | type | name=passwordLogin | Chiara2212 |
+[info] Executing: | click | id=inputAccedi |  |
+[info] Wait for the new page to be fully loaded
+[info] Executing: | click | css=li.compilaModuli |  |
+[info] Executing: | click | link=Chiara Signore |  |
+[info] Executing: | click | link=Logout |  |
+[info] Time: Tue Jan 30 2018 15:00:06 GMT+0100 (CET) Timestamp: 1517320806456
+[info] Test case passed
